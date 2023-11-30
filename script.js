@@ -7,7 +7,7 @@ try{
         document.getElementById('customAlert').style.display = 'block';
         document.getElementById('overlay').style.display = 'block';
     }else{
-    let fetchedData=await fetch(`http://www.omdbapi.com/?t=${movie}&apikey=9b9c9683`)
+    let fetchedData=await fetch(`https://www.omdbapi.com/?t=${movie}&apikey=9b9c9683`)
     let data= await fetchedData.json();
     console.log(data)
 
