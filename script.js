@@ -19,7 +19,7 @@ try{
            <img src="${data.Poster}" alt=""  class="img-fluid">
            <p class="rounded border d-flex justify-content-center my-2">${data.Genre}</p>
        </div>
-       <div class="col-lg-9 p-4">
+       <div class="col-lg-9 p-2">
        <div class="d-flex">
        <div>
        <h3>${data.Title} (${data.Year})</h3>
@@ -35,7 +35,7 @@ try{
        </div>
        </div>
        
-       <p><b>Plot :</b> ${data.Plot}</p>
+       <p class="p-0"><b>Plot :</b> ${data.Plot}</p>
        <p><b>Cast : </b>${data.Actors}</p> 
            <div>
            <p><b>Director : </b>${data.Director}</p>
